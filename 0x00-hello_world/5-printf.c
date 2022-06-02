@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - printing a function
- * Description: Printing "with proper grammer"
+ * main - printing a programme
+ * Description: printing proper grammar
  * Return: 0
  */
 int main(void)
