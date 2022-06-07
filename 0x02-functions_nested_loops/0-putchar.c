@@ -1,8 +1,8 @@
-# include <stdio.h>
+# include <main.h>
 /**
  * main - prints a string of characters
  * Description: prints _putchar, followed by a new line
- * Return: o
+ * Return: 0
  */
 int main(void)
 {
