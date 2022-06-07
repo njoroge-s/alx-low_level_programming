@@ -1,4 +1,4 @@
-#include <main.h>
+# include <stdio.h>
 /**
  * main - prints a string of characters
  * Description: prints _putchar, followed by a new line
@@ -7,6 +7,6 @@
 int main(void)
 {
 	char a[] = ("_putchar");
-_putchar(a\n');
+_putchar(a \n');
 return (0);
 }
