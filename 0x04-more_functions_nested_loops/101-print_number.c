@@ -3,36 +3,18 @@
 /**
  * print_number - prints a number
  * @n: input number
+ * Return: void
  */
 void print_number(int n)
 {
-	long len, res, i, temp, expo;
+	unsigned int num = n;
 
-	res = n;
-	expo = len = 1;
-
-	/**check negatives*/
-	if (res < 0)
+	if (n < 0)
 	{
-		res *= -1;
 		_putchar('-');
+		num = -num;
 	}
-
-	temp = res;
-	while (temp >= 10)
-	{
-		len++;
-		temp /= 10;
-	}
-
-	/**create exponent*/
-	for (i = 1; i < len; i++)
-		expo *= 10;
-	/**main*/
-	while (expo > 1)
-	{
-		_putchar((res / expo) % 10 + '0');
-		expo /= 10;
-	}
-	_putchar(res % 10 + '0');
+	if ((num / 10) > 0)
+		print_number(num / 10);
+	_putchar((num % 10) + '0');
 }
