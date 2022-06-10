@@ -32,9 +32,9 @@ int main(void)
 		}
 		if (i != 100)
 		{
-			printf(" ");
+			putchar(' ');
 		}
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
