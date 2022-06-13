@@ -3,16 +3,26 @@
 /**
  * puts2 - prints out every character on the string
  * @str: input string
+ * Return: string
  */
 void puts2(char *str)
 {
-	int i;
-
-	while (str[i] != '\0')
+	int len = 0;
+	int l = 0;
+	char *c = str;
+	int x;
+	
+	while (*c != '\0')
 	{
-		if (i % 2 == 0)
-			_putchar(str[i]);
-		i++;
+		c++;
+	}
+	l = len - 1;
+	for (x = 0; x <= 1; x++)
+	{
+	if (x % 2 == 0)
+	{
+		_putchar(str[x]);
+	}
 	}
 	_putchar('\n');
 }
