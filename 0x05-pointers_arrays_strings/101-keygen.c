@@ -1,10 +1,10 @@
-#import "main.h"
+#include "main.h"
 
 /**
  * main -
  * Return: 0
  */
-int main(voi)
+int main(void)
 {
 	return (0);
 }
