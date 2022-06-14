@@ -1,49 +1,43 @@
 #include "main.h"
+#include<stdio.h>
 /**
- * print_times_table - prints timetable
- * Description: prints the n times table, starting with 0.
- * @n: multiplication table requested
- * Return: 0
+ * print_times_table - Prints the n times table
+ * @n: number times table (0 < n <= 15)
+ * Return: no return
  */
 void print_times_table(int n)
 {
-	int i, j, k;
-	if (n >= 0 && n <= 15)
-	{
-		for (i = 0; i <= n; i++)
-		{
-			for (j = 0; j <= n; j++)
-			{
-				k = j * i;
-				if (j == 0)
-				{
-					_putchar(k + '0');
-				}
-				else if (k < 10 && j != 0)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(k + '0');
-				}
-				else if (k >= 10 && k < 100)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar((k / 10) + '0');
-					_putchar((k % 10) + '0');
-				}
-				else if (k >= 100)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar((k / 100) + '0');
-					_putchar(((k / 10) % 10) + '0');
-					_putchar((k % 10) + '0');
-				}
-			}
-			_putchar('\n');
-		}
-	}
+int a, b, c;
+if (n >= 0 && n <= 15)
+{
+for (a = 0; a <= n; a++)
+{
+putchar(48);
+for (b = 1; b <= n; b++)
+{
+c = a * b;
+putchar(44);
+putchar(32);
+if (c <= 9)
+{
+putchar(32);
+putchar(32);
+putchar(c + 48);
+}
+else if (c <= 99)
+{
+putchar(32);
+putchar((c / 10) + 48);
+putchar((c % 10) + 48);
+}
+else
+{
+putchar(((c / 100) % 10) + 48);
+putchar(((c / 10) % 10) + 48);
+putchar((c % 10) + 48);
+}
+}
+putchar('\n');
+}
+}
+}
