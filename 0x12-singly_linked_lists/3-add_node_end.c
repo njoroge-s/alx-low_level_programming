@@ -1,66 +1,34 @@
 #include "lists.h"
-#include <stdlib.h>
-#include <stdio.h>
-#include <stddef.h>
-/**
- * _strlen - gets length of the string
- * @s: string
- * Return: length of the string
- */
-int _strlen(const char *s)
-{
-	int i;
 
-	for (i = 0; s[i]; i++)
-		;
-	return (i);
-}
 /**
- * _strdup - recreation of string duplicate function
- * @src: source of string to duplicate
- * Return: pointer to malloc'd space with copied string
+ * add_nodeint_end - adds a node at the end of a linked list
+ * @head: pointer to the first element in the list
+ * @n: data to insert in the new element
+ *
+ * Return: pointer to the new node, or NULL if it fails
  */
-void *_strdup(const char *src)
+list_t *add_nodeint_end(list_t **head, const int n)
 {
-	int len, i;
-	char *dest;
-
-	len = _strlen(src);
-	dest = malloc((len + 1) * sizeof(char));
-	if (dest == NULL)
-		return (NULL);
-	for (i = 0; src[i]; i++)
-		dest[i] = src[i];
-	dest[i] = '\0';
-	return (dest);
-}
-/**
- * add_node_end - add new nodes to the end of the list
- * @head: current place in the list
- * @str: string to add to the head
- * Return: pointer to current position in list
- */
-list_t *add_node_end(list_t **head, const char *str)
-{
-	list_t *new, *last;
+	list_t *new;
+	list_t *temp = *head;
 
 	new = malloc(sizeof(listint_t));
-	if (new == NULL)
+	if (!new)
 		return (NULL);
 
 	new->n = n;
 	new->next = NULL;
 
 	if (*head == NULL)
-		*head = new;
-
-	else
 	{
-		last = *head;
-		while (last->next != NULL)
-			last = last->next;
-		last->next = new;
+		*head = new;
+		return (new);
 	}
 
-	return (*head);
+	while (temp->next)
+		temp = temp->next;
+
+	temp->next = new;
+
+	return (new);
 }
