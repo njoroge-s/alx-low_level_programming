@@ -1,6 +1,6 @@
 ### C PROGRAMMING -Hello, World
 
-resources
+## resources
 https://alx-intranet.hbtn.io/concepts/26
 
 0-preprocessor
