@@ -3,7 +3,7 @@
 an introduction to c programming
 
 
-**[0-preprocessor]**(https://github.com/njoroge-s/alx-low_level_programming/0x00-hello_world/0-preprocessor) - A script that runs a C file through the preprocessor and save the result into another file.
+[0-preprocessor](https://github.com/njoroge-s/alx-low_level_programming/0x00-hello_world/0-preprocessor) - A script that runs a C file through the preprocessor and save the result into another file.
 
 [1-compiler](https://github.com/njoroge-s/alx-low_level_programming/0x00-hello_world/1-compiler) - A script that compiles a C file but does not link.
 
