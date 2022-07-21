@@ -1,8 +1,11 @@
-### Variables, if, else, while
+### Variables
+
+introduction to variables; if, if .. else, while
 
 #### reading materials
-[material 1](https://alx-intranet.hbtn.io/rltoken/PkAydT3D9u5pN3nPCAlNZQ)
-[material 2](https://alx-intranet.hbtn.io/rltoken/58ThnAAxwJv5s_ceKMMPhw)
+
+ * [material 1](https://alx-intranet.hbtn.io/rltoken/PkAydT3D9u5pN3nPCAlNZQ)
+* [material 2](https://alx-intranet.hbtn.io/rltoken/58ThnAAxwJv5s_ceKMMPhw)
 https://alx-intranet.hbtn.io/rltoken/2sXkmDiD7BF7pNIOxMQWFA
 https://alx-intranet.hbtn.io/rltoken/S-b9MN2iELhSEwCI093Vzw
 https://alx-intranet.hbtn.io/rltoken/usvxrTB3ko5kGTq48p5fSA
