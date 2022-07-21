@@ -1,9 +1,6 @@
 ### C PROGRAMMING -Hello, World
 
-## resources
-https://alx-intranet.hbtn.io/concepts/26
-
-0-preprocessor
+**0-preprocessor**
 a script that runs a C file through the preprocessor and save the result into another file.
 
 1-compiler
