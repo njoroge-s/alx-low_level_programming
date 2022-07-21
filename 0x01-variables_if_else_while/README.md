@@ -1,6 +1,6 @@
-###Variables, if, else, while
+### Variables, if, else, while
 
-####reading materials
+#### reading materials
 [material 1](https://alx-intranet.hbtn.io/rltoken/PkAydT3D9u5pN3nPCAlNZQ)
 [material 2](https://alx-intranet.hbtn.io/rltoken/58ThnAAxwJv5s_ceKMMPhw)
 https://alx-intranet.hbtn.io/rltoken/2sXkmDiD7BF7pNIOxMQWFA
