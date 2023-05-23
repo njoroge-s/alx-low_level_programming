@@ -1,53 +1,19 @@
-### Variables
+# Variables If Else While
 
-introduction to variables; if, if .. else, while
+This project contains __C__ tasks for learning variables and the _if_, _else_ and _while_ control structures.
 
-#### reading materials
+## Tasks Completed
 
- * [material 1](https://alx-intranet.hbtn.io/rltoken/PkAydT3D9u5pN3nPCAlNZQ)
-* [material 2](https://alx-intranet.hbtn.io/rltoken/58ThnAAxwJv5s_ceKMMPhw)
-https://alx-intranet.hbtn.io/rltoken/2sXkmDiD7BF7pNIOxMQWFA
-https://alx-intranet.hbtn.io/rltoken/S-b9MN2iELhSEwCI093Vzw
-https://alx-intranet.hbtn.io/rltoken/usvxrTB3ko5kGTq48p5fSA
-https://alx-intranet.hbtn.io/rltoken/O1N-qacaTC-BHXm3Dp3eUA
-https://alx-intranet.hbtn.io/rltoken/mwx2_bj3gIFEgCqdwdTp4w
-https://alx-intranet.hbtn.io/rltoken/MW4Ob-6JLWt7Zn6vZ0EsBw
-
-0-positive_or_negative.c
-program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
-
-1-last_digit.c
- program will assign a random number to the variable n each time it is executed.
-
-2-print_alphabet.c
-a program that prints the alphabet in lowercase, followed by a new line.
-
-3-print_alphabets.c
- a program that prints the alphabet in lowercase, followed by a new line. 
-
-4-print_alphabt.c
- a program that prints the alphabet in lowercase, followed by a new line
-
-5-print_numbers.c
-a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
-
-6-print_numberz.c
- a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
-
-7-print_tebahpla.c
-a program that prints the lowercase alphabet in reverse, followed by a new line
-
-8-print_base16.c
-a program that prints all the numbers of base 16 in lowercase, followed by a new line.
-
-9-print_comb.c
-a program that prints all possible combinations of single-digit numbers
-
-100-print_comb3.c
-a program that prints all possible different combinations of two digits.
-
-101-print_comb4.c
-a program that prints all possible different combinations of three digits.
-
-102-print_comb5.c
-a program that prints all possible combinations of two two-digit numbers.
++ [x] 0\. Positive anything is better than negative nothing<br/>_**0-positive_or_negative.c**_ assigns a random number to the variable `n` each time it is executed and prints whether the number stored in the variable `n` is positive or negative.
++ [x] 1\. The last digit<br/>_**1-last_digit.c**_ assigns a random number to the variable `n` each time it is executed and prints the last digit of the number stored in the variable `n`.
++ [x] 2\. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game<br/>_**2-print_alphabet.c**_ prints the alphabet in lowercase, followed by a new line.
++ [x] 3\. alphABET<br/>_**3-print_alphabets.c**_ prints the alphabet in lowercase, and then in uppercase, followed by a new line.
++ [x] 4\. When I was having that alphabet soup, I never thought that it would pay off<br/>_**4-print_alphabt.c**_ prints the alphabet in lowercase, followed by a new line.
++ [x] 5\. Numbers<br/>_**5-print_numbers.c**_ prints all single digit numbers of base 10 starting from `0`, followed by a new line.
++ [x] 6\. Numberz<br/>_**6-print_numberz.c**_ prints all single digit numbers of base 10 starting from `0`, followed by a new line.
++ [x] 7\. Smile in the mirror<br/>_**7-print_tebahpla.c**_ prints the lowercase alphabet in reverse, followed by a new line.
++ [x] 8\. Hexadecimal<br/>_**8-print_base16.c**_ prints all the numbers of base 16 in lowercase, followed by a new line.
++ [x] 9\. Patience, persistence and perspiration make an unbeatable combination for success<br/>_**9-print_comb.c**_ prints all possible combinations of single-digit numbers.
++ [x] 10\. Inventing is a combination of brains and materials. The more brains you use, the less material you need<br/>_**100-print_comb3.c**_ prints all possible different combinations of two digits.
++ [x] 11\. The success combination in business is: Do what you do better... and: do more of what you do...<br/>_**101-print_comb4.c**_ prints all possible different combinations of three digits.
++ [x] 12\. Software is eating the World<br/>_**102-print_comb5.c**_ prints all possible combinations of two two-digit numbers.
